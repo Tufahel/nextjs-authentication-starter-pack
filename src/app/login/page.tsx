@@ -81,7 +81,7 @@ const LoginPage = () => {
             <button
               className="btn btn-circle"
               onClick={() =>
-                signIn("github", {
+                signIn("google", {
                   callbackUrl: "http://localhost:3000/dashboard",
                 })
               }
